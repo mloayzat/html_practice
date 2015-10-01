@@ -18,3 +18,32 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+body {background-image: url(grey.png)}
+
+.board {
+	border: teal thick solid;
+	margin: 36px auto;
+				}	
+
+.square {color: rgb(255,140,0);
+		text-shadow: 1px 1px 2px grey;
+		font-size: 48px; 
+		width: 72px;
+		height: 70px;
+		text-align: center;
+	
+
+		}
+
+.dark_square {background-color: teal;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#279aa5+0,0e7476+50,2a9ea6+100 */
+background: rgb(39,154,165); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(39,154,165,1) 0%, rgba(14,116,118,1) 50%, rgba(42,158,166,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(39,154,165,1)), color-stop(50%,rgba(14,116,118,1)), color-stop(100%,rgba(42,158,166,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(39,154,165,1) 0%,rgba(14,116,118,1) 50%,rgba(42,158,166,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(39,154,165,1) 0%,rgba(14,116,118,1) 50%,rgba(42,158,166,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(39,154,165,1) 0%,rgba(14,116,118,1) 50%,rgba(42,158,166,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(39,154,165,1) 0%,rgba(14,116,118,1) 50%,rgba(42,158,166,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#279aa5', endColorstr='#2a9ea6',GradientType=0 ); /* IE6-9 */
+copy

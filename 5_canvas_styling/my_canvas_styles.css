@@ -1,0 +1,45 @@
+ body {
+      font-size: 6pt;
+      font-family: arial;}
+
+   ul   {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;}
+    
+
+    td {
+      vertical-align: top;
+    }
+
+    li { font-family: arial;}
+
+    .canvas_section{border:thin black solid;
+                    padding: 0 10px;}
+
+    h1 {font-family: arial;}
+
+    h2 {font-family: arial ;}
+
+    h3 {text-transform: uppercase;
+      font-size: 6pt;
+      margin-bottom: 0;
+    }
+
+    h4 {padding: 0;
+        margin: 0;}
+    p {margin:0;
+       padding: 0;}
+
+    .canvas { 
+      width: 100%;}
+
+    .wide_input { 
+      width: 90%;}  
+
+    .sublist {font-style: italic;
+            }
+    ol {padding: 10px;
+        margin: 0;}
+
+
